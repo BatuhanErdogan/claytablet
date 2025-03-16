@@ -1,0 +1,10 @@
+Clay Tablet is a simple and intuitive Android tool for cuneiform writing and practice. With Clay Tablet, you can adjust the size and the behavior of wedges to practice your cuneiform skills and create entire Mesopotamian texts from scratch! It has:
+
+- Basic drawing and writing features
+- A scrollable tablet canvas
+- Undo/Redo and eraser tools
+- Adjustable wedge sizes
+
+Future updates will include a transliteration logic and a complete cuneiform library.
+
+(C) 2025 Batuhan Erdogan

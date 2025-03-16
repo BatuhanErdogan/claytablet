@@ -1,0 +1,6 @@
+Initial release of the cuneiform writing app.
+
+- Basic drawing and writing features
+- Scrollable tablet canvas
+- Undo/Redo and eraser tools
+- Adjustable wedge sizes
