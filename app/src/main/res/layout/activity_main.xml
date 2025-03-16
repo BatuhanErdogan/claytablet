@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.mehrphilalethes.claytablet.view.TabletCanvasView
+        android:id="@+id/tabletCanvasView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:gravity="center_horizontal">
+
+            <ToggleButton
+                android:id="@+id/scrollButton"
+                android:layout_width="48dp"
+                android:layout_height="52dp"
+                android:background="@drawable/scroll_selector"
+                android:textOff=""
+                android:textOn=""
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/undoButton"
+                android:layout_width="48dp"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/undo_selector"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/redoButton"
+                android:layout_width="48dp"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/redo_selector"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ToggleButton
+                android:id="@+id/eraserButton"
+                android:layout_width="48dp"
+                android:layout_height="52dp"
+                android:background="@drawable/erase_selector"
+                android:textOff=""
+                android:textOn=""
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/clearButton"
+                android:layout_width="48dp"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/clear_selector"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ToggleButton
+                android:id="@+id/snapButton"
+                android:layout_width="48dp"
+                android:layout_height="52dp"
+                android:background="@drawable/snap_selector"
+                android:textOff=""
+                android:textOn=""
+                android:checked="true"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/settingsButton"
+                android:layout_width="48dp"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/settings_selector"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/rotateButton"
+                android:layout_width="48dp"
+                android:layout_height="52dp"
+                android:background="@drawable/rotate"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>
